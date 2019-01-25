@@ -1,0 +1,241 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>ITR form 12bb - MSys</title>
+    <!-- < link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/it-form-main.css" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+    <form method="POST">
+        <div class="container" id="container" style="margin: 0px auto; display: block;">
+            <div class="row">
+                <div class="col-12  pt-4">
+                    <img src="static/img/msys-logo-icon.jpg" style=" width: 100px;float: right;">
+                    <h4 class="pb-1 text-center" style="font-family: myriad-arabic; line-height:22px;">INCOME-TAX RULES, 1962</h4>
+                    <p class="text-center" style="line-height:22px;">FORM NO.12BB<br>(See rule 26C)</p>
+                    <h6 class="text-center pt-3"><strong>Statement showing particulars of claims by an employee for deduction of tax under section 192</strong></h6>
+                    <div class="row py-3">
+                        <div class="col">
+                            <p>1. Name and address of the employee: <textarea type="text" name="emp-name" rows="3" class="form-control full-width" id="employee-address-id" style="margin-bottom:6px; "></textarea></p>
+                            </p>
+
+                            <p>2. Permanent Account Number of the employee: <input type="text" name="emp-acc-no" class="form-control w-120" name="name1" maxlength="15" id="writenew-id"></p>
+                            <p>3. Financial year: <input type="text" class="form-control w-120" id="writenew-id" maxlength="20" value="2018-19"></p>
+
+                            <p>4. Employee Code: <input type="text" class="form-control w-120" name="emp-code" maxlength="12" id="writenew-id"></p>
+                            <p>5. Employee Location: <input type="text" class="form-control w-120" name="emp-location" maxlength="12" id="writenew-id"></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 ">
+                    <table class="it-claims">
+                        <tr>
+                            <th colspan="4" class="text-center"><strong>Details of claims and evidence thereof</strong></th>
+                        </tr>
+                        <tr>
+                            <th class="text-center" style=" ">Sl.<br>No.</th>
+                            <th class="text-center">Nature of claim</th>
+                            <th class="text-center" style=" ">Amount<br>(Rs)</th>
+                            <th class="text-center" style=" ">Evidence /<br>particulars</th>
+                        </tr>
+                        <tr>
+                            <th class="text-center">(1)</th>
+                            <th class="text-center">(2)</th>
+                            <th class="text-center">(3)</th>
+                            <th class="text-center">(4)</th>
+                        </tr>
+                        <tr>
+                            <td class="text-right">1.</td>
+                            <td>House Rent Allowance:
+                                <ul>
+                                    <li>(i) Rent paid to the landlord<sup>*</sup></li>
+                                    <li>(ii) Name of the landlord <input type="text" class="form-control full-width" maxlength="35" id="landlord-id" name="landlord-name"> </li>
+                                    <li>(iii) Address of the landlord<textarea type="text" rows="5" class="form-control full-width" id="landlord-address-id" name="landlord-address"></textarea></li>
+                                    <li>(iv) Permanent Account Number of the landlord<sup>*</sup> <input type="text" class="form-control full-width" name="landlord-acc-no" maxlength="25" id="landlord-pan-id"></li>
+                                </ul>
+                                <p style="line-height:22px;">Note: Permanent Account Number is mandatory to furnished if the aggregate rent paid during the year exceeds one lakh rupees - See Income Tax Rule 26C</p>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control w-120 mt-28" id="rent-paid-id" name="rent-paid-landlord">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control full-width mt-28" id="writenew-id" name="rent-paid-landlord-proof">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-right">2.</td>
+                            <td>Leave travel concessions or assistance</td>
+                            <td>
+                                <input type="text" class="form-control w-120" id="writenew-id" name="leave-travel-concession">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control full-width" id="writenew-id" name="leave-travel-proof">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-right">3.</td>
+                            <td>Deduction of interest on borrowing:
+                                <ul>
+                                    <li>(i) Interest payable/paid to the lender<sup>*</sup> </li>
+                                    <li>(ii)Name of the lender <input type="text" class="form-control full-width" maxlength="35" id="lender-name-id" name="lender-name"></li>
+                                    <li>(iii) Address of the lender <textarea type="text" rows="5" class="form-control full-width" id="lender-address-id" name="lender-address"></textarea></li>
+                                    <li>(iv) Permanent Account Number of the lender<sup>*</sup> <input type="text" class="form-control full-width" name="lender-proof" maxlength="25" id="lender-acc-id"></li>
+                                    <ul>
+                                        <li>(a) Financial Institutions(if available) </li>
+                                        <li>(b) Others <input type="text" class="form-control w-150" maxlength="20" id="writenew-id" name="lender-others"></li>
+                                    </ul>
+
+                                </ul>
+
+
+                            </td>
+                            <td>
+                                <input type="text" class="form-control w-120 mt-28" id="lender-id" name="interest-paid-lender">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control full-width mt-28" id="writenew-id" name="interest-paid-proof">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" ">4.</td>
+                            <td class=" ">
+                                <p>Deduction under Chapter VI-A </p>
+                                <ul>
+                                    <li>(A) Section 80C,80CCC and 80CCD</li>
+                                    <ul>
+                                        <li>(i) Section 80C</li>
+                                        <ul id="parent">
+                                            <li>(a) <input type="text" name="80cc[]" class="form-control w-150" maxlength="25" id="writenew-id"></li>
+                                            <li>(b) <input type="text" name="80cc[]" class="form-control w-150" maxlength="25" id="writenew-id"></li>
+                                        </ul>
+                                        <li style="height:43px;"><button type="button" id="add" class=" no-print btn btn-outline-success btn-sm mt-1 mb-2">Add</button></li>
+                                        <li>(ii) Section 80CCC </li>
+                                        <li>(iii) Section 80CCD</li>
+                                    </ul>
+                                    </li>
+                                    <li>(B) Other sections (e.g. 80E, 80G, 80TTA, etc.)<br /> under Chapter VI-A.</li>
+                                    <ul>
+                                        <li>(i) section <input type="text" class="form-control w-150" name="section-1" maxlength="25" id="writenew-id"></li>
+                                        <li>(ii) section <input type="text" class="form-control w-150" name="section-2" maxlength="25" id="writenew-id"></li>
+                                        <li>(iii) section <input type="text" class="form-control w-150" name="section-3" maxlength="25" id="writenew-id"></li>
+                                        <li>(iv) section <input type="text" class="form-control w-150" name="section-4" maxlength="25" id="writenew-id"></li>
+                                        <li>(v) section <input type="text" class="form-control w-150" name="section-5" maxlength="25" id="writenew-id"></li>
+                                        <li>(vi) section <input type="text" class="form-control w-150" name="section-6" maxlength="25" id="writenew-id"></li>
+                                    </ul>
+
+                                </ul>
+                            </td>
+                            <td style="width:140px;">
+
+                                <input type="text" class="form-control w-120 mt-88" name="80cc-val[]" id="writenew-id">
+                                <input type="text" class="form-control w-120" name="80cc-val[]" id="writenew-id">
+                                <div class="selection-80"></div>
+                                <input type="text" class="form-control w-120 margint-40" name="section-80cc" id="writenew-id">
+                                <input type="text" class="form-control w-120" name="section-80ccd" id="writenew-id">
+                                <input type="text" class="form-control w-120 mt-70 " name="80E-1" id="writenew-id">
+                                <input type="text" class="form-control w-120" name="80E-2" id="writenew-id">
+                                <input type="text" class="form-control w-120" name="80E-3" id="writenew-id">
+                                <input type="text" class="form-control w-120" name="80E-4" id="writenew-id">
+                                <input type="text" class="form-control w-120" name="80E-5" id="writenew-id">
+                                <input type="text" class="form-control w-120" name="80E-6" id="writenew-id">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control full-width mt-88" name="80cc-val-proof[]" id="writenew-id">
+                                <input type="text" class="form-control full-width" name="80cc-val-proof[]" id="writenew-id">
+                                <div class="selection-80-proof"></div>
+                                <input type="text" class="form-control full-width margint-40" name="section-80cc-address" id="writenew-id">
+                                <input type="text" class="form-control full-width" name="section-80ccd-address" id="writenew-id">
+                                <input type="text" class="form-control full-width mt-70" name="80E-1-proof" id="writenew-id">
+                                <input type="text" class="form-control full-width" name="80E-2-proof" id="writenew-id">
+                                <input type="text" class="form-control full-width" name="80E-3-proof" id="writenew-id">
+                                <input type="text" class="form-control full-width" name="80E-4-proof" id="writenew-id">
+                                <input type="text" class="form-control full-width" name="80E-5-proof" id="writenew-id">
+                                <input type="text" class="form-control full-width" name="80E-6-proof" id="writenew-id">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th colspan="3" class="text-center">Verification </th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td colspan="3">I, <input type="text" class="form-control w-250" name="verify-name" maxlength="35" id="writenew-id">,son/daughter of <input type="text" class="form-control w-250" maxlength="35" name="verify-father-name" id="writenew-id"> do
+                                hereby certify that the information given above is complete and correct. </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Place <input type="text" class="form-control w-120" name="place" maxlength="12" id="writenew-id"></td>
+                            <td colspan="2"> </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Date <input type="text" class="form-control w-120" name="date" maxlength="15" id="writenew-id"></td>
+                            <td colspan="2">(Signature of the employee)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Designation <input type="text" class="form-control w-250" maxlength="35" name="designation" id="writenew-id"></td>
+                            <td colspan="2">Full Name: <input type="text" class="form-control w-250" name="full-name" maxlength="23" id="writenew-id"></td>
+                        </tr>
+                    </table>
+                    <button type="submit" id="create_pdf" class="btn btn-primary btn-md mb-5 float-right no-print">
+                                    Submit Form
+                                 </button>
+                    <!-- <button type="submit" id="create_pdf" class="btn btn-primary btn-md mb-5 float-right no-print">Submit Form</button> -->
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/app.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#rent-paid-id, #lender-id').change(function() {
+                var amt = parseInt($(this).val());
+                if (amt != '') {
+                    $("#landlord-id, #landlord-address-id, #landlord-pan-id").addClass("landlord");
+                }
+            });
+            $('#lender-id').change(function() {
+                var lender_amt = parseInt($(this).val());
+                if (lender_amt != '') {
+                    $("#lender-name-id, #lender-address-id, #lender-acc-id").addClass("landlord");
+                }
+            });
+            $('#landlord-id, #landlord-address-id, #landlord-pan-id,#lender-name-id, #lender-address-id, #lender-acc-id').change(function() {
+                $("#landlord-id, #landlord-address-id, #landlord-pan-id,#lender-name-id, #lender-address-id, #lender-acc-id").removeClass("landlord");
+            });
+
+        });
+        var alpha = ['c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'Z'];
+        count = 0;
+        $('#add').click(function() {
+            var ul = $(this).closest('ul');
+            if (ul.find('input:text').length < 20) {
+                $("#parent").append('<li>(' + alpha[count] + ') <input type="text" class="form-control w-150" name="80cc[]"  maxlength="25" id="writenew-id"></li>');
+                $(".selection-80").append('<input type="text" class="form-control full-width" name="80cc-val[]" id="writenew-id">');
+                $(".selection-80-proof").append('<input type="text" class="form-control full-width" name="80cc-val-proof[]" id="writenew-id">');
+                count++;
+            }
+
+        });
+        $('#create_pdf').click(function() {
+            // console.log("hello")
+            window.location.reload();
+        });
+    </script>
+</body>
+
+</html>

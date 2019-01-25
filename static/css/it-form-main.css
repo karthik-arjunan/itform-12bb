@@ -1,0 +1,196 @@
+@font-face {
+    font-family: cambria;
+    src: url('Cambria.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: myriad-arabic;
+    src: url('Bahij Myriad Arabic-Bold.ttf') format('truetype');
+}
+
+body {
+    font-family: cambria;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+table {
+    font-family: cambria;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2px 8px 4px;
+    vertical-align: top;
+    line-height: 30px;
+}
+
+th {
+    padding: 0px;
+    font-weight: normal;
+}
+
+dl,
+ol,
+ul {
+    list-style-type: none;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+li {
+    line-height: 29px;
+}
+
+p {
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+sup {
+    color: red;
+}
+
+.it-claims p {
+    margin: 0px;
+}
+
+.form-control {
+    display: inline;
+    width: auto;
+    border: 0px;
+    border-bottom: 1px solid rgba(206, 212, 218, 1);
+    /* box-shadow: inset 0px -1px 0px 0px #666; */
+    border-radius: 0px;
+    outline: 0;
+    padding: 0px 2px;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+input.form-control {
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0);
+}
+
+.mt-28 {
+    margin-top: 28px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.mt-58 {
+    margin-top: 58px !important;
+}
+
+.mt-70 {
+    margin-top: 70px !important;
+}
+
+.mt-88 {
+    margin-top: 88px !important;
+}
+
+.mt-94 {
+    margin-top: 94px !important;
+}
+
+.w-100 {
+    width: 100px !important;
+}
+
+.w-120 {
+    width: 120px;
+}
+
+.w-150 {
+    width: 150px;
+}
+
+.w-180 {
+    width: 180px;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.w-220 {
+    width: 220px;
+}
+
+.w-250 {
+    width: 250px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.landlord {
+    border-bottom-color: red;
+}
+
+.container {
+    margin: 0px;
+}
+
+.print-padding {
+    padding-top: 70px;
+}
+
+.print-margin {
+    margin-top: 50px !important;
+}
+
+.print-btn-padding {
+    padding-top: 43px;
+}
+
+.margint-40 {
+    margin-top: 30px !important;
+}
+
+.margint-36 {
+    margin-top: 36px !important;
+}
+
+.margint-5 {
+    margin-top: 5px !important;
+}
+
+@media print {
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+    body,
+    div {
+        display: block !important;
+    }
+    .print-btn-padding {
+        padding-top: 43px;
+    }
+}
+
+.deduction {
+    padding-top: 30px;
+}
